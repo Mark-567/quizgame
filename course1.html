@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="course1.css">
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXQcP51A3ncwchFeonpESD-_s8Gg043M_a2g&usqp=CAU" alt="Logo">
+        <h1>Quiz Game</h1>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  </head>
+  <body>
+    <form id="quiz-form">
+      <p>What is the capital of France?</p>
+      <label>
+        <input type="radio" name="city" value="Paris">
+        Paris
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="city" value="London">
+        London
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="city" value="Rome">
+        Rome
+      </label>
+      <br><br>
+      <p>What is the largest planet in our solar system?</p>
+      <label>
+        <input type="radio" name="planet" value="Jupiter">
+        Jupiter
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="planet" value="Saturn">
+        Saturn
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="planet" value="Earth">
+        Earth
+      </label>
+      <br><br>
+      <p>Who painted the Mona Lisa?</p>
+      <label>
+        <input type="radio" name="artist" value="Leonardo da Vinci">
+        Leonardo da Vinci
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="artist" value="Pablo Picasso">
+        Pablo Picasso
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="artist" value="Vincent van Gogh">
+        Vincent van Gogh
+      </label>
+      <br><br>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
